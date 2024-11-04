@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scrollbar-3dlight-color:#2a2680;
+    scrollbar-arrow-color:#ffff00;
+    scrollbar-base-color:#7F7F7F;
+    scrollbar-track-color:7e00ff;
+    scrollbar-darkshadow-color:#2a2680;
+    scrollbar-face-color:#7e73ff;
+    scrollbar-highlight-color:2a2680;
+    scrollbar-shadow-color:#000000;
+    
+    height: 100%;
+    width: 100%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+    background-color: #000222;
+
+    background-image: url(img/background4.gif);
+    background-repeat: repeat-x repeat-y;
+}
+
+header {
+    display: block;
+    width: 400px;
+    margin: auto;
+    background-color: #555999;
+    color: white;
+    border: 1px solid yellow;
+}
+
+h2 {
+    color: green;
+}
+
+header h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+header nav {
+    background-color: cyan;
+    height: 20px;
+}
+
+header nav ul {
+    /* list-style-image: none; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    float: left;
+}
+
+header marquee {
+    background-color: unset;
+    color: red;
+}
+
+footer {
+    padding: 5px;
+    display: block;
+    width: 390px;
+    margin: auto;
+    background-color: #555999;
+    color: white;
+    border: 1px solid yellow;
+    margin-bottom: 10px;
+}
+footer img {
+    margin: auto;
+    display: block;
+}
+footer a {
+    color: white;
+}
+
+page {
+    display: block;
+    width: 300px;
+    padding: 0px 50px;
+    margin: auto;
+    border: 1px solid yellow;
+    background-color: white;
+}
+
+ul {
+    list-style-image: url('img/point.gif');
+}
+
+.banners {
+    width: 400px;
+    margin: auto;
+}
